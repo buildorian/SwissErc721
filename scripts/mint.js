@@ -32,7 +32,7 @@ async function main() {
 
   // Define the function name and parameters for the mint function
   const functionName = "mint";
-  const recipient = "0x518f06684b8c0b6D9bE17cAb6434Ff05Ee22e24c"; // Replace with the actual recipient address
+  const recipient = "0x3cfe3aa9b102dddf35aebf63a9eab22e53804fff"; // Replace with the actual recipient address
   const encodedFunctionData = contract.interface.encodeFunctionData(functionName, [recipient]);
 
   // Send a shielded transaction to mint a token in the contract
