@@ -33,7 +33,7 @@ async function main() {
 
   // Send a shielded query to retrieve balance data from the contract
   const replace_functionName = "balanceOf";
-  const replace_functionArgs = ["0x518f06684b8c0b6D9bE17cAb6434Ff05Ee22e24c"];
+  const replace_functionArgs = ["0x3cfe3aa9b102dddf35aebf63a9eab22e53804fff"];
   const responseMessage = await sendShieldedQuery(signer.provider, replace_contractAddress, contract.interface.encodeFunctionData(replace_functionName, replace_functionArgs));
 
   // Decode the Uint8Array response into a readable string
